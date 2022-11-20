@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
         pl9.setOnClickListener(view -> pl9Fouls());
         pl10.setOnClickListener(view -> pl10Fouls());
 
-        final String num = "+254745904565";
+        final String num = "+254745006734";
         final String text = message() + "\n fouls \n"+playerSummary();
 
 //whatsapp sharing
@@ -214,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void emailling(String message){
         String fullMessage = message() + "\n fouls \n" + playerSummary();
-        String[] emails = {"reinhardsiminyu1@gmail.com"};
+        String[] emails = {"ray@gmail.com"};
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setData(Uri.parse("mailto:"));
         intent.setType("'/'");
